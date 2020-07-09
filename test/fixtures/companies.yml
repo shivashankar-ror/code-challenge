@@ -33,3 +33,9 @@ brown_painting:
   email: "brown_painting@brown_painting.com"
   zip_code:
   phone: "555-808-8888"
+
+own_painting:
+  name: "Own Painting"
+  email: "ownpainting@getmainstreet.com"
+  zip_code:
+  phone: "555-808-8888"
