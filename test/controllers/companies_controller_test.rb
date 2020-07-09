@@ -58,4 +58,12 @@ class CompaniesControllerTest < ApplicationSystemTestCase
     assert_equal "28173", last_company.zip_code
   end
 
+  test "Destroy" do
+    visit company_path(@company)
+
+    accept_confirm do
+      click_on "Remove"
+    end
+    assert_text "Company removed successfully"
+  end
 end
